@@ -1,0 +1,21 @@
+Software versions used in the PE43 WGS workflow
+
+FastQC: to be confirmed
+fastp: to be confirmed
+BWA-MEM2: to be confirmed
+SAMtools: to be confirmed
+FreeBayes: to be confirmed
+BCFtools: to be confirmed
+Beagle: v5.5
+PLINK: to be confirmed
+ADMIXTURE: to be confirmed
+VCFtools: to be confirmed
+VEP: to be confirmed
+R: to be confirmed
+
+Main R packages:
+ggplot2
+data.table
+dplyr
+circlize
+ComplexUpset / eulerr / ggVennDiagram (to confirm exact usage)

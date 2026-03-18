@@ -1,0 +1,5 @@
+cv <- read.table("CV_summary.tsv", header=FALSE)
+colnames(cv) <- c("K","CV")
+png("ADMIXTURE_CV_curve.png", width=2200, height=1400, res=300)
+plot(cv$K, cv$CV, type="b", pch=19, xlab="K", ylab="Cross-validation error")
+dev.off()

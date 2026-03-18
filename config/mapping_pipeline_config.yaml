@@ -1,0 +1,4 @@
+ASSEMBLY: ../data/ref/ARS1/reference.fa
+OUTDIR: ../results/bams
+PATHS_WITH_FILES:
+  fastq: ../data/fastq

@@ -1,0 +1,7 @@
+__default__:
+    time: "2-0:0:0" 
+    mem: 16000
+    threads: 8
+    name: "JOBNAME.{rule}"
+    output: "logs_slurm/{rule}_%j.out"
+    error: "logs_slurm/{rule}_%j.err"
